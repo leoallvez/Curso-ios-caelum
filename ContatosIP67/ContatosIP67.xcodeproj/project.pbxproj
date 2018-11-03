@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F541B0E218E097900E3483A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F541B0D218E097900E3483A /* AppDelegate.swift */; };
-		2F541B10218E097900E3483A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F541B0F218E097900E3483A /* ViewController.swift */; };
+		2F541B10218E097900E3483A /* FormularioContatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F541B0F218E097900E3483A /* FormularioContatoViewController.swift */; };
 		2F541B13218E097A00E3483A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F541B11218E097A00E3483A /* Main.storyboard */; };
 		2F541B16218E097A00E3483A /* ContatosIP67.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F541B14218E097A00E3483A /* ContatosIP67.xcdatamodeld */; };
 		2F541B18218E097A00E3483A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F541B17218E097A00E3483A /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		2F541B0A218E097900E3483A /* ContatosIP67.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContatosIP67.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F541B0D218E097900E3483A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F541B0F218E097900E3483A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F541B0F218E097900E3483A /* FormularioContatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioContatoViewController.swift; sourceTree = "<group>"; };
 		2F541B12218E097A00E3483A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F541B15218E097A00E3483A /* ContatosIP67.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContatosIP67.xcdatamodel; sourceTree = "<group>"; };
 		2F541B17218E097A00E3483A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				2F541B0D218E097900E3483A /* AppDelegate.swift */,
-				2F541B0F218E097900E3483A /* ViewController.swift */,
+				2F541B0F218E097900E3483A /* FormularioContatoViewController.swift */,
 				2F541B11218E097A00E3483A /* Main.storyboard */,
 				2F541B17218E097A00E3483A /* Assets.xcassets */,
 				2F541B19218E097A00E3483A /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F541B10218E097900E3483A /* ViewController.swift in Sources */,
+				2F541B10218E097900E3483A /* FormularioContatoViewController.swift in Sources */,
 				2F541B16218E097A00E3483A /* ContatosIP67.xcdatamodeld in Sources */,
 				2F541B0E218E097900E3483A /* AppDelegate.swift in Sources */,
 			);
