@@ -10,6 +10,10 @@ import UIKit
 
 class FormularioContatoViewController: UIViewController {
     
+    var dao:ContatoDao
+    
+
+    
     @IBOutlet var nome:     UITextField!
     @IBOutlet var telefone: UITextField!
     @IBOutlet var endereco: UITextField!

@@ -14,6 +14,7 @@
 		2F541B18218E097A00E3483A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F541B17218E097A00E3483A /* Assets.xcassets */; };
 		2F541B1B218E097A00E3483A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F541B19218E097A00E3483A /* LaunchScreen.storyboard */; };
 		2F541B25218E23C600E3483A /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F541B24218E23C600E3483A /* Contato.m */; };
+		2F541B27218E329900E3483A /* ContatoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F541B26218E329900E3483A /* ContatoDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2F541B22218E23C600E3483A /* ContatosIP67-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContatosIP67-Bridging-Header.h"; sourceTree = "<group>"; };
 		2F541B23218E23C600E3483A /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
 		2F541B24218E23C600E3483A /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		2F541B26218E329900E3483A /* ContatoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatoDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				2F541B0D218E097900E3483A /* AppDelegate.swift */,
 				2F541B0F218E097900E3483A /* FormularioContatoViewController.swift */,
+				2F541B26218E329900E3483A /* ContatoDao.swift */,
 				2F541B11218E097A00E3483A /* Main.storyboard */,
 				2F541B17218E097A00E3483A /* Assets.xcassets */,
 				2F541B19218E097A00E3483A /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 				2F541B10218E097900E3483A /* FormularioContatoViewController.swift in Sources */,
 				2F541B16218E097A00E3483A /* ContatosIP67.xcdatamodeld in Sources */,
 				2F541B0E218E097900E3483A /* AppDelegate.swift in Sources */,
+				2F541B27218E329900E3483A /* ContatoDao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +319,7 @@
 				2F541B21218E097A00E3483A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
