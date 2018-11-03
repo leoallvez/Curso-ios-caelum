@@ -27,12 +27,13 @@ class FormularioContatoViewController: UIViewController {
     }
     
     @IBAction func pegaDadosDoFormulario() {
-        let nome = self.nome.text!
-        let telefone = self.telefone.text!
-        let endereco = self.endereco.text!
-        let site = self.siteText.text!
-        
-        print("Nome: \(nome), Telefone: \(telefone), Endereco: \(endereco), Site: \(site)")
+        let contato: Contato = Contato()
+        contato.nome = self.nome.text!
+        contato.telefone = self.telefone.text!
+        contato.endereco = self.endereco.text!
+        contato.site = self.siteText.text!
+        print(contato)
+        //print("Nome: \(nome), Telefone: \(telefone), Endereco: \(endereco), Site: \(site)")
         
     }
 

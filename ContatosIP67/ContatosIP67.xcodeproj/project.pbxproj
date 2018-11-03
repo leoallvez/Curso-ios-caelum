@@ -13,6 +13,7 @@
 		2F541B16218E097A00E3483A /* ContatosIP67.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F541B14218E097A00E3483A /* ContatosIP67.xcdatamodeld */; };
 		2F541B18218E097A00E3483A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F541B17218E097A00E3483A /* Assets.xcassets */; };
 		2F541B1B218E097A00E3483A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F541B19218E097A00E3483A /* LaunchScreen.storyboard */; };
+		2F541B25218E23C600E3483A /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F541B24218E23C600E3483A /* Contato.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		2F541B17218E097A00E3483A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F541B1A218E097A00E3483A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F541B1C218E097A00E3483A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F541B22218E23C600E3483A /* ContatosIP67-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContatosIP67-Bridging-Header.h"; sourceTree = "<group>"; };
+		2F541B23218E23C600E3483A /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
+		2F541B24218E23C600E3483A /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +44,11 @@
 		2F541B01218E097900E3483A = {
 			isa = PBXGroup;
 			children = (
+				2F541B23218E23C600E3483A /* Contato.h */,
+				2F541B24218E23C600E3483A /* Contato.m */,
 				2F541B0C218E097900E3483A /* ContatosIP67 */,
 				2F541B0B218E097900E3483A /* Products */,
+				2F541B22218E23C600E3483A /* ContatosIP67-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +106,7 @@
 				TargetAttributes = {
 					2F541B09218E097900E3483A = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F541B25218E23C600E3483A /* Contato.m in Sources */,
 				2F541B10218E097900E3483A /* FormularioContatoViewController.swift in Sources */,
 				2F541B16218E097A00E3483A /* ContatosIP67.xcdatamodeld in Sources */,
 				2F541B0E218E097900E3483A /* AppDelegate.swift in Sources */,
@@ -262,10 +271,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ContatosIP67/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.caelum.ContatosIP67;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ContatosIP67-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,10 +286,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ContatosIP67/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.caelum.ContatosIP67;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ContatosIP67-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
