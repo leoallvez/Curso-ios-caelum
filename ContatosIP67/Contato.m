@@ -9,12 +9,11 @@
 #import "Contato.h"
 
 @implementation Contato
-    -(NSString* ) description {
-        return [NSString stringWithFormat: @"Nome: %@, Telefone: %@, Endereco: %@, Site: %@",
-                self.nome, self.telefone,  self.endereco, self.site];
-    }
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"Nome: %@, Telefone: %@, Endereco: %@, Site: %@",
+            self.nome, self.telefone, self.endereco, self.site];
+}
 
 
 @end
-
-
